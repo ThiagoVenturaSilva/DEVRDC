@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('IMG/imagemfundo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    color: #fff;
+}
+ 
+.navbar {
+    display: flex;
+    columns: space-between;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.qualidades, .area, .genero, .nomeSobrenome {
+    background-color: rgba(238, 247, 136, 0.7); /* Fundo preto com opacidade */
+    padding: 20px;
+    border-radius: 10px; /* Borda arredondada */
+    margin-bottom: 20px; /* Espaço entre seções */
+}
+
+.qualidades .qualityText, .area .areaText, .genero .generoText, .nomeSobrenome .nomeText {
+    margin-bottom: 10px; /* Espaço abaixo dos títulos */
+}
+
+/* Estilizando os checkboxes e radios para serem mais visuais */
+.form-check-input {
+    margin-right: 5px;
+}
+
+.btnEnviar {
+    margin-top: 20px; /* Espaço acima do botão ENVIAR */
+}
+
+/* Estilizando o botão ENVIAR */
+.btn-outline-success {
+    background-color: #28a745; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border-color: #28a745; /* Cor da borda do botão */
+    border-radius: 10px; /* Borda arredondada */
+}
+
+.btn-outline-success:hover {
+    background-color: #218838; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #1e7e34; /* Cor da borda do botão ao passar o mouse */
+}
+
+.footer {
+    text-align: center;
+    background-color: warning;
+}
+
+p {
+    font-size: 18px;
+    text-decoration: solid;
+    text-decoration: underline;
+    text-align: center;
+}
